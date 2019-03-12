@@ -1,0 +1,11 @@
+aula 12/03/2019
+
+comandos metasploit:
+
+msfconsole
+help
+help use
+use auxiliary/scanner/portscan/syn
+set rhosts  <IP>
+set ports <primeira porta-ultima porta>
+
