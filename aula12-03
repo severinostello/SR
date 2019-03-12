@@ -8,4 +8,11 @@ help use
 use auxiliary/scanner/portscan/syn
 set rhosts  <IP>
 set ports <primeira porta-ultima porta>
-
+run/exploit
+use auxiliary/scanner/ssh/ssh_version
+show options
+search -r
+vsftpd
+search unreal
+use exploit/unix/ftp/vsftpd_234_backdoor
+search samba
